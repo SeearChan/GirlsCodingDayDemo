@@ -153,18 +153,19 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  height:100vh
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 300px 0;
   }
 }
 .intro-header .site-heading,
@@ -239,6 +240,9 @@ hr.small {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+}
+.xxxx {
+  font-weight: 300;
 }
 .post-preview > .post-meta {
   color: #777777;
@@ -404,4 +408,7 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
+}
+.xxx{
+  color: red;
 }
