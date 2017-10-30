@@ -154,6 +154,8 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
   height:100vh
+     background: url("images/logo.png") no-repeat;
+    -webkit-mask: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
